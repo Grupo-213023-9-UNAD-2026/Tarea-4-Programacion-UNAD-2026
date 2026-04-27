@@ -19,7 +19,7 @@ Sistema desarrollado en Python que gestiona **clientes, servicios y reservas** p
 | 2 | (Jeus) | `reserva.py`, `logger.py`, `pruebas.py` — Reservas, logs y simulación |
 | 3 | (Yirleira) | Apoyo en integración, revisión de `main.py` y `README.md` |
 | 4 | (Valery) | `servicio.py` Documentación de clases y pruebas adicionales |
-| 5 | (Ezequiel) | 'main.py', 'README.md', 'ver_log.py' — principal, documentación y validaciones |
+| 5 | (Ezequiel) | `main.py`, `README.md`, `ver_log.py` — principal, documentación y validaciones |
 
 ---
 
