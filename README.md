@@ -32,7 +32,7 @@ Permitir la administracion basica de una empresa ficticia que ofrece servicios c
 | # | Nombre | Responsabilidad principal |
 |---|--------|---------------------------|
 | 1 | Paula | `cliente.py`, `excepciones.py` - Clases de clientes y errores del sistema |
-| 2 | Jeus | `reserva.py`, `logger.py`, `pruebas.py` - Reservas, logs y simulacion |
+| 2 | Jesus | `reserva.py`, `logger.py`, `pruebas.py` - Reservas, logs y simulacion |
 | 3 | Yirleira | Apoyo en integracion, revision de `main.py` y `README.md` |
 | 4 | Valery | `servicio.py` - Servicios, documentacion de clases y pruebas adicionales |
 | 5 | Ezequiel | `main.py`, `README.md`, `ver_log.py` - Menu principal, documentacion y visor del log |
