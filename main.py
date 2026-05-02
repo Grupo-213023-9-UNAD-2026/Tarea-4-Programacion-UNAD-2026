@@ -1,4 +1,20 @@
 """
+SOFTWARE FJ - SISTEMA DE GESTIÓN DE CLIENTES, SERVICIOS Y RESERVAS
+==================================================================
+Este programa permite gestionar clientes, servicios y reservas de una empresa.
+Ofrece un menú interactivo en consola para:
+
+- Registrar clientes con validación de cédula, nombre, email y teléfono.
+- Administrar servicios: salas de reuniones, alquiler de equipos y asesorías técnicas.
+- Crear, confirmar, cancelar y procesar reservas, calculando costos según cada servicio.
+- Generar reportes con totales de clientes, servicios, reservas e ingresos.
+- Ejecutar una simulación automática de 11 pruebas para verificar el sistema.
+
+Todo evento importante se registra en el archivo 'sistema.log' para su auditoría.
+
+Ejecución: python main.py
+Requiere Python 3.10 o superior.
+
 main.py
 Autor: Ezequiel Olmos Luque(Líder)
 Curso: Programación 213023 - UNAD
