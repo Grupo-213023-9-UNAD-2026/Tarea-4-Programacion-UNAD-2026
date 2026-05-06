@@ -1,0 +1,175 @@
+
+============================================================
+  SISTEMA SOFTWARE FJ - SESIÓN INICIADA: 2026-04-28 17:00:35
+============================================================
+[2026-04-28 17:00:35] [INFO] Cliente registrado: Carlos Andrés Pérez | ID: 1012345678 | Email: carlos.perez@softwarefj.com
+[2026-04-28 17:00:35] [INFO] PRUEBA 01 EXITOSA: Cliente válido registrado.
+[2026-04-28 17:00:35] [ERROR] PRUEBA 02: Error esperado capturado → [Error 102] El email 'lauragomez_sin_arroba' no tiene un formato válido. Debe contener '@' y un dominio (ej: usuario@correo.com).
+[2026-04-28 17:00:35] [ERROR] PRUEBA 03: Error esperado capturado → [Error 101] El nombre de cliente 'Juan123' es inválido. Debe contener solo letras y espacios, y no puede estar vacío.
+[2026-04-28 17:00:35] [ERROR] PRUEBA 04: Error esperado capturado → [Error 103] Ya existe un cliente registrado con el dato 'identificación 1012345678'.
+[2026-04-28 17:00:35] [INFO] Servicio creado: Sala Bogotá | Precio/h: $80000.00 | ID: 8CE238B9
+[2026-04-28 17:00:35] [INFO] Servicio agregado al catálogo: Sala Bogotá
+[2026-04-28 17:00:35] [INFO] Servicio creado: Portátil HP ProBook | Precio/h: $25000.00 | ID: CAA38F73
+[2026-04-28 17:00:35] [INFO] Servicio agregado al catálogo: Portátil HP ProBook
+[2026-04-28 17:00:35] [INFO] Servicio creado: Asesoría en Arquitectura de Software | Precio/h: $120000.00 | ID: 6978DC86
+[2026-04-28 17:00:35] [INFO] Servicio agregado al catálogo: Asesoría en Arquitectura de Software
+[2026-04-28 17:00:35] [INFO] PRUEBA 05 EXITOSA: 3 servicios creados correctamente.
+[2026-04-28 17:00:35] [ERROR] PRUEBA 06: Error esperado capturado → [Error 202] El parámetro 'precio_hora' tiene un valor inválido: '-5000'. El precio por hora debe ser mayor a 0.
+[2026-04-28 17:00:35] [INFO] Reserva creada | ID: CA76E4B2BC | Cliente: Carlos Andrés Pérez | Servicio: Sala Bogotá | Horas: 3.0 | Estado: PENDIENTE
+[2026-04-28 17:00:35] [INFO] Reserva confirmada | ID: CA76E4B2BC | Costo: $345,100.00
+[2026-04-28 17:00:35] [INFO] Intento de confirmación finalizado para reserva CA76E4B2BC
+[2026-04-28 17:00:35] [INFO] Reserva procesada | ID: CA76E4B2BC | Costo: $345,100.00
+[2026-04-28 17:00:35] [INFO] PRUEBA 07 EXITOSA: Reserva procesada completamente.
+[2026-04-28 17:00:35] [ERROR] PRUEBA 08: Error esperado capturado → [Error 303] La duración '0' horas no es válida. Debe ser un número positivo mayor a 0.
+[2026-04-28 17:00:35] [INFO] Reserva creada | ID: CD06642854 | Cliente: Carlos Andrés Pérez | Servicio: Portátil HP ProBook | Horas: 2.0 | Estado: PENDIENTE
+[2026-04-28 17:00:35] [INFO] Reserva confirmada | ID: CD06642854 | Costo: $50,000.00
+[2026-04-28 17:00:35] [INFO] Intento de confirmación finalizado para reserva CD06642854
+[2026-04-28 17:00:35] [ERROR] PRUEBA 09: Error esperado capturado → [Error 301] La reserva 'CD06642854' ya fue confirmada anteriormente.
+[2026-04-28 17:00:35] [INFO] PRUEBA 09: Bloque finally ejecutado correctamente.
+[2026-04-28 17:00:35] [ADVERTENCIA] Servicio desactivado: Asesoría en Arquitectura de Software
+[2026-04-28 17:00:35] [ERROR] PRUEBA 10: Error esperado capturado → [Error 201] El servicio 'Asesoría en Arquitectura de Software' no está disponible en este momento.
+[2026-04-28 17:00:35] [INFO] Servicio activado: Asesoría en Arquitectura de Software
+[2026-04-28 17:00:35] [INFO] PRUEBA 10: Bloque finally ejecutado (limpieza).
+[2026-04-28 17:00:35] [INFO] Cliente registrado: María Fernanda Torres | ID: 1076543210 | Email: mftorres@empresa.co
+[2026-04-28 17:00:35] [INFO] Reserva creada | ID: AF7CEC69FD | Cliente: María Fernanda Torres | Servicio: Portátil HP ProBook | Horas: 3.0 | Estado: PENDIENTE
+[2026-04-28 17:00:35] [INFO] Reserva confirmada | ID: AF7CEC69FD | Costo: $270,000.00
+[2026-04-28 17:00:35] [INFO] Intento de confirmación finalizado para reserva AF7CEC69FD
+[2026-04-28 17:00:35] [INFO] PRUEBA 11 EXITOSA: Descuento por volumen aplicado correctamente.
+[2026-04-28 17:00:35] [INFO] Simulación completa. Todos los errores fueron manejados.
+
+============================================================
+  SISTEMA SOFTWARE FJ - SESION INICIADA: 2026-04-28 17:18:22
+============================================================
+[2026-04-28 17:18:22] [INFO] Cliente registrado: Carlos Andres Perez | ID: 1012345678 | Email: carlos.perez@softwarefj.com
+[2026-04-28 17:18:22] [INFO] PRUEBA 01 EXITOSA: Cliente valido registrado.
+[2026-04-28 17:18:22] [ERROR] PRUEBA 02: Error esperado capturado -> [Error 102] El email 'lauragomez_sin_arroba' no tiene un formato válido. Debe contener '@' y un dominio, por ejemplo usuario@correo.com.
+[2026-04-28 17:18:22] [ERROR] PRUEBA 03: Error esperado capturado -> [Error 101] El nombre de cliente 'Juan123' es inválido. Debe contener solo letras y espacios, y no puede estar vacío.
+[2026-04-28 17:18:22] [ERROR] PRUEBA 04: Error esperado capturado -> [Error 103] Ya existe un cliente registrado con el dato 'identificacion 1012345678'.
+[2026-04-28 17:18:22] [INFO] Servicio creado: Sala Bogota | Precio/h: $80000.00 | ID: C544E1FF
+[2026-04-28 17:18:22] [INFO] Servicio agregado al catalogo: Sala Bogota
+[2026-04-28 17:18:22] [INFO] Servicio creado: Portatil HP ProBook | Precio/h: $25000.00 | ID: 0B739A26
+[2026-04-28 17:18:22] [INFO] Servicio agregado al catalogo: Portatil HP ProBook
+[2026-04-28 17:18:22] [INFO] Servicio creado: Asesoria en Arquitectura de Software | Precio/h: $120000.00 | ID: C47DD4E0
+[2026-04-28 17:18:22] [INFO] Servicio agregado al catalogo: Asesoria en Arquitectura de Software
+[2026-04-28 17:18:22] [INFO] PRUEBA 05 EXITOSA: 3 servicios creados correctamente.
+[2026-04-28 17:18:22] [ERROR] PRUEBA 06: Error esperado capturado -> [Error 202] El parámetro 'precio_hora' tiene un valor inválido: '-5000'. El precio por hora debe ser mayor a 0.
+[2026-04-28 17:18:22] [INFO] Reserva creada | ID: E624B1DF4E | Cliente: Carlos Andres Perez | Servicio: Sala Bogota | Horas: 3.0 | Estado: PENDIENTE
+[2026-04-28 17:18:22] [INFO] Reserva confirmada | ID: E624B1DF4E | Costo: $345,100.00
+[2026-04-28 17:18:22] [INFO] Intento de confirmacion finalizado para reserva E624B1DF4E
+[2026-04-28 17:18:22] [INFO] Reserva procesada | ID: E624B1DF4E | Costo: $345,100.00
+[2026-04-28 17:18:22] [INFO] PRUEBA 07 EXITOSA: Reserva procesada completamente.
+[2026-04-28 17:18:22] [ERROR] PRUEBA 08: Error esperado capturado -> [Error 303] La duración '0' horas no es válida. Debe ser un número positivo mayor a 0.
+[2026-04-28 17:18:22] [INFO] Reserva creada | ID: 6F841BD064 | Cliente: Carlos Andres Perez | Servicio: Portatil HP ProBook | Horas: 2.0 | Estado: PENDIENTE
+[2026-04-28 17:18:22] [INFO] Reserva confirmada | ID: 6F841BD064 | Costo: $50,000.00
+[2026-04-28 17:18:22] [INFO] Intento de confirmacion finalizado para reserva 6F841BD064
+[2026-04-28 17:18:22] [ERROR] PRUEBA 09: Error esperado capturado -> [Error 301] La reserva '6F841BD064' ya fue confirmada anteriormente.
+[2026-04-28 17:18:22] [INFO] PRUEBA 09: Bloque finally ejecutado correctamente.
+[2026-04-28 17:18:22] [ADVERTENCIA] Servicio desactivado: Asesoria en Arquitectura de Software
+[2026-04-28 17:18:22] [ERROR] PRUEBA 10: Error esperado capturado -> [Error 201] El servicio 'Asesoria en Arquitectura de Software' no está disponible en este momento.
+[2026-04-28 17:18:22] [INFO] Servicio activado: Asesoria en Arquitectura de Software
+[2026-04-28 17:18:22] [INFO] PRUEBA 10: Bloque finally ejecutado.
+[2026-04-28 17:18:22] [INFO] Cliente registrado: Maria Fernanda Torres | ID: 1076543210 | Email: mftorres@empresa.co
+[2026-04-28 17:18:22] [INFO] Reserva creada | ID: 39283E04D9 | Cliente: Maria Fernanda Torres | Servicio: Portatil HP ProBook | Horas: 3.0 | Estado: PENDIENTE
+[2026-04-28 17:18:22] [INFO] Reserva confirmada | ID: 39283E04D9 | Costo: $270,000.00
+[2026-04-28 17:18:22] [INFO] Intento de confirmacion finalizado para reserva 39283E04D9
+[2026-04-28 17:18:22] [INFO] PRUEBA 11 EXITOSA: Descuento por volumen aplicado correctamente.
+[2026-04-28 17:18:22] [INFO] Simulacion completa. Todos los errores fueron manejados.
+
+============================================================
+  SISTEMA SOFTWARE FJ - SESION INICIADA: 2026-04-28 17:19:03
+============================================================
+[2026-04-28 17:19:03] [INFO] Cliente registrado: Carlos Andres Perez | ID: 1012345678 | Email: carlos.perez@softwarefj.com
+[2026-04-28 17:19:03] [INFO] PRUEBA 01 EXITOSA: Cliente valido registrado.
+[2026-04-28 17:19:03] [ERROR] PRUEBA 02: Error esperado capturado -> [Error 102] El email 'lauragomez_sin_arroba' no tiene un formato válido. Debe contener '@' y un dominio, por ejemplo usuario@correo.com.
+[2026-04-28 17:19:03] [ERROR] PRUEBA 03: Error esperado capturado -> [Error 101] El nombre de cliente 'Juan123' es inválido. Debe contener solo letras y espacios, y no puede estar vacío.
+[2026-04-28 17:19:03] [ERROR] PRUEBA 04: Error esperado capturado -> [Error 103] Ya existe un cliente registrado con el dato 'identificacion 1012345678'.
+[2026-04-28 17:19:03] [INFO] Servicio creado: Sala Bogota | Precio/h: $80000.00 | ID: 21F3B939
+[2026-04-28 17:19:03] [INFO] Servicio agregado al catalogo: Sala Bogota
+[2026-04-28 17:19:03] [INFO] Servicio creado: Portatil HP ProBook | Precio/h: $25000.00 | ID: 198C81DE
+[2026-04-28 17:19:03] [INFO] Servicio agregado al catalogo: Portatil HP ProBook
+[2026-04-28 17:19:03] [INFO] Servicio creado: Asesoria en Arquitectura de Software | Precio/h: $120000.00 | ID: 3A11DCDD
+[2026-04-28 17:19:03] [INFO] Servicio agregado al catalogo: Asesoria en Arquitectura de Software
+[2026-04-28 17:19:03] [INFO] PRUEBA 05 EXITOSA: 3 servicios creados correctamente.
+[2026-04-28 17:19:03] [ERROR] PRUEBA 06: Error esperado capturado -> [Error 202] El parámetro 'precio_hora' tiene un valor inválido: '-5000'. El precio por hora debe ser mayor a 0.
+[2026-04-28 17:19:03] [INFO] Reserva creada | ID: 759192F254 | Cliente: Carlos Andres Perez | Servicio: Sala Bogota | Horas: 3.0 | Estado: PENDIENTE
+[2026-04-28 17:19:03] [INFO] Reserva confirmada | ID: 759192F254 | Costo: $345,100.00
+[2026-04-28 17:19:03] [INFO] Intento de confirmacion finalizado para reserva 759192F254
+[2026-04-28 17:19:03] [INFO] Reserva procesada | ID: 759192F254 | Costo: $345,100.00
+[2026-04-28 17:19:03] [INFO] PRUEBA 07 EXITOSA: Reserva procesada completamente.
+[2026-04-28 17:19:03] [ERROR] PRUEBA 08: Error esperado capturado -> [Error 303] La duración '0' horas no es válida. Debe ser un número positivo mayor a 0.
+[2026-04-28 17:19:03] [INFO] Reserva creada | ID: AC121CDA4C | Cliente: Carlos Andres Perez | Servicio: Portatil HP ProBook | Horas: 2.0 | Estado: PENDIENTE
+[2026-04-28 17:19:03] [INFO] Reserva confirmada | ID: AC121CDA4C | Costo: $50,000.00
+[2026-04-28 17:19:03] [INFO] Intento de confirmacion finalizado para reserva AC121CDA4C
+[2026-04-28 17:19:03] [ERROR] PRUEBA 09: Error esperado capturado -> [Error 301] La reserva 'AC121CDA4C' ya fue confirmada anteriormente.
+[2026-04-28 17:19:03] [INFO] PRUEBA 09: Bloque finally ejecutado correctamente.
+[2026-04-28 17:19:03] [ADVERTENCIA] Servicio desactivado: Asesoria en Arquitectura de Software
+[2026-04-28 17:19:03] [ERROR] PRUEBA 10: Error esperado capturado -> [Error 201] El servicio 'Asesoria en Arquitectura de Software' no está disponible en este momento.
+[2026-04-28 17:19:03] [INFO] Servicio activado: Asesoria en Arquitectura de Software
+[2026-04-28 17:19:03] [INFO] PRUEBA 10: Bloque finally ejecutado.
+[2026-04-28 17:19:03] [INFO] Cliente registrado: Maria Fernanda Torres | ID: 1076543210 | Email: mftorres@empresa.co
+[2026-04-28 17:19:03] [INFO] Reserva creada | ID: 55C1E32CC6 | Cliente: Maria Fernanda Torres | Servicio: Portatil HP ProBook | Horas: 3.0 | Estado: PENDIENTE
+[2026-04-28 17:19:03] [INFO] Reserva confirmada | ID: 55C1E32CC6 | Costo: $270,000.00
+[2026-04-28 17:19:03] [INFO] Intento de confirmacion finalizado para reserva 55C1E32CC6
+[2026-04-28 17:19:03] [INFO] PRUEBA 11 EXITOSA: Descuento por volumen aplicado correctamente.
+[2026-04-28 17:19:03] [INFO] Simulacion completa. Todos los errores fueron manejados.
+
+============================================================
+  SISTEMA SOFTWARE FJ - SESION INICIADA: 2026-04-28 17:25:28
+============================================================
+
+============================================================
+  SISTEMA SOFTWARE FJ - SESION INICIADA: 2026-04-28 18:19:00
+============================================================
+[2026-04-28 18:20:21] [INFO] Cliente registrado: Ezequiel Olmos | ID: 8643123 | Email: ezoluq@gmail.com
+[2026-04-28 18:21:04] [ADVERTENCIA] Cliente desactivado: Ezequiel Olmos | ID: 8643123
+[2026-04-28 18:21:17] [INFO] Cliente reactivado: Ezequiel Olmos | ID: 8643123
+[2026-04-28 18:21:50] [INFO] Servicio creado: 01 | Precio/h: $40000.00 | ID: D162829C
+[2026-04-28 18:21:50] [INFO] Servicio agregado al catalogo: 01
+[2026-04-28 18:22:36] [INFO] Servicio creado: PC | Precio/h: $20000.00 | ID: C126E6DD
+[2026-04-28 18:22:36] [INFO] Servicio agregado al catalogo: PC
+[2026-04-28 18:25:53] [INFO] Servicio creado: Asesoría | Precio/h: $50000.00 | ID: 5507197B
+[2026-04-28 18:25:53] [INFO] Servicio agregado al catalogo: Asesoría
+[2026-04-28 18:26:22] [ADVERTENCIA] Servicio desactivado: 01
+[2026-04-28 18:26:29] [INFO] Servicio activado: 01
+[2026-04-28 18:26:58] [INFO] Reserva creada | ID: 6C18DE837B | Cliente: Ezequiel Olmos | Servicio: Asesoría | Horas: 3.0 | Estado: PENDIENTE
+[2026-04-28 18:27:32] [INFO] Reserva confirmada | ID: 6C18DE837B | Costo: $300,000.00
+[2026-04-28 18:27:32] [INFO] Intento de confirmacion finalizado para reserva 6C18DE837B
+[2026-04-28 18:28:38] [INFO] Reserva procesada | ID: 6C18DE837B | Costo: $300,000.00
+
+============================================================
+  SISTEMA SOFTWARE FJ - SESION INICIADA: 2026-04-28 18:28:56
+============================================================
+[2026-04-28 18:28:56] [INFO] Cliente registrado: Carlos Andres Perez | ID: 1012345678 | Email: carlos.perez@softwarefj.com
+[2026-04-28 18:28:56] [INFO] PRUEBA 01 EXITOSA: Cliente valido registrado.
+[2026-04-28 18:28:56] [ERROR] PRUEBA 02: Error esperado capturado -> [Error 102] El email 'lauragomez_sin_arroba' no tiene un formato válido. Debe contener '@' y un dominio, por ejemplo usuario@correo.com.
+[2026-04-28 18:28:56] [ERROR] PRUEBA 03: Error esperado capturado -> [Error 101] El nombre de cliente 'Juan123' es inválido. Debe contener solo letras y espacios, y no puede estar vacío.
+[2026-04-28 18:28:56] [ERROR] PRUEBA 04: Error esperado capturado -> [Error 103] Ya existe un cliente registrado con el dato 'identificacion 1012345678'.
+[2026-04-28 18:28:56] [INFO] Servicio creado: Sala Bogota | Precio/h: $80000.00 | ID: F663AF95
+[2026-04-28 18:28:56] [INFO] Servicio agregado al catalogo: Sala Bogota
+[2026-04-28 18:28:56] [INFO] Servicio creado: Portatil HP ProBook | Precio/h: $25000.00 | ID: 20DC9114
+[2026-04-28 18:28:56] [INFO] Servicio agregado al catalogo: Portatil HP ProBook
+[2026-04-28 18:28:56] [INFO] Servicio creado: Asesoria en Arquitectura de Software | Precio/h: $120000.00 | ID: 38243BD0
+[2026-04-28 18:28:56] [INFO] Servicio agregado al catalogo: Asesoria en Arquitectura de Software
+[2026-04-28 18:28:56] [INFO] PRUEBA 05 EXITOSA: 3 servicios creados correctamente.
+[2026-04-28 18:28:56] [ERROR] PRUEBA 06: Error esperado capturado -> [Error 202] El parámetro 'precio_hora' tiene un valor inválido: '-5000'. El precio por hora debe ser mayor a 0.
+[2026-04-28 18:28:56] [INFO] Reserva creada | ID: 35E45D0966 | Cliente: Carlos Andres Perez | Servicio: Sala Bogota | Horas: 3.0 | Estado: PENDIENTE
+[2026-04-28 18:28:56] [INFO] Reserva confirmada | ID: 35E45D0966 | Costo: $345,100.00
+[2026-04-28 18:28:56] [INFO] Intento de confirmacion finalizado para reserva 35E45D0966
+[2026-04-28 18:28:56] [INFO] Reserva procesada | ID: 35E45D0966 | Costo: $345,100.00
+[2026-04-28 18:28:56] [INFO] PRUEBA 07 EXITOSA: Reserva procesada completamente.
+[2026-04-28 18:28:56] [ERROR] PRUEBA 08: Error esperado capturado -> [Error 303] La duración '0' horas no es válida. Debe ser un número positivo mayor a 0.
+[2026-04-28 18:28:56] [INFO] Reserva creada | ID: 98E5C3D072 | Cliente: Carlos Andres Perez | Servicio: Portatil HP ProBook | Horas: 2.0 | Estado: PENDIENTE
+[2026-04-28 18:28:56] [INFO] Reserva confirmada | ID: 98E5C3D072 | Costo: $50,000.00
+[2026-04-28 18:28:56] [INFO] Intento de confirmacion finalizado para reserva 98E5C3D072
+[2026-04-28 18:28:56] [ERROR] PRUEBA 09: Error esperado capturado -> [Error 301] La reserva '98E5C3D072' ya fue confirmada anteriormente.
+[2026-04-28 18:28:56] [INFO] PRUEBA 09: Bloque finally ejecutado correctamente.
+[2026-04-28 18:28:56] [ADVERTENCIA] Servicio desactivado: Asesoria en Arquitectura de Software
+[2026-04-28 18:28:56] [ERROR] PRUEBA 10: Error esperado capturado -> [Error 201] El servicio 'Asesoria en Arquitectura de Software' no está disponible en este momento.
+[2026-04-28 18:28:56] [INFO] Servicio activado: Asesoria en Arquitectura de Software
+[2026-04-28 18:28:56] [INFO] PRUEBA 10: Bloque finally ejecutado.
+[2026-04-28 18:28:56] [INFO] Cliente registrado: Maria Fernanda Torres | ID: 1076543210 | Email: mftorres@empresa.co
+[2026-04-28 18:28:56] [INFO] Reserva creada | ID: C206CE2C7B | Cliente: Maria Fernanda Torres | Servicio: Portatil HP ProBook | Horas: 3.0 | Estado: PENDIENTE
+[2026-04-28 18:28:56] [INFO] Reserva confirmada | ID: C206CE2C7B | Costo: $270,000.00
+[2026-04-28 18:28:56] [INFO] Intento de confirmacion finalizado para reserva C206CE2C7B
+[2026-04-28 18:28:56] [INFO] PRUEBA 11 EXITOSA: Descuento por volumen aplicado correctamente.
+[2026-04-28 18:28:56] [INFO] Simulacion completa. Todos los errores fueron manejados.
